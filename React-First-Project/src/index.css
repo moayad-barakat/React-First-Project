@@ -170,3 +170,183 @@ left: 40px;
 
 
 /* END FIRM SECTTION */
+
+
+
+
+
+
+/* START FEATURES SECTION */
+
+.features-section{
+  margin-top: 100px;
+
+}
+
+.empty-divs{
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.empty-div1{
+  width: 75px;
+  height: 3px;
+  background-color: #3CB815;
+ 
+}
+
+.empty-div2{
+  width: 150px;
+  height: 3px;
+  margin-top: 13px;
+  background-color: red;
+  position: relative;
+  right: 100px;
+
+}
+
+
+
+
+
+
+.features-content{
+  text-align: center;
+}
+
+
+.features-cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.feature-card{
+  border: solid whitesmoke;
+  border-radius: 18%;
+  width: 320px;
+  height: 300px;
+  text-align: center;
+}
+
+.features-text2{
+max-width: 250px;
+line-height: 25px;
+margin-left: 20px;
+
+}
+
+.features-buttons{
+
+  border:solid #3CB815;
+  color: #3CB815;
+  padding: 13px;
+  width: 120px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.features-buttons:hover{
+  background-color: #3CB815;
+  color: white;
+  transition: 0.5s;
+}
+
+
+ /* END FEATURES SECTION */
+
+
+
+
+ /* START FOOTER SECTION */
+
+footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-title1{
+  color:#3CB815 ;
+}
+
+.footer-text1{
+
+  max-width: 250px;
+  line-height: 25px;
+  font-size: large;
+}
+
+
+
+
+.footer-icons i {
+  font-size: 25px;
+  margin: 10px;
+  border: solid white;
+  padding: 5px;
+  border-radius: 50%;
+  color: white;
+}
+
+.footer-icons i:hover{
+  border: solid white;
+  background-color: white;
+  color: black;
+  transition: 0.5s;
+}
+
+
+
+.address-title{
+  margin-left: 35px;
+}
+.address-icons{
+  list-style: none;
+  
+}
+.address-icons li {
+  margin-bottom: 10px;
+}
+
+.quick-icons{
+  list-style: none;
+}
+
+
+.quick-icons li{
+  margin: 10px;
+}
+
+.quick-icons li a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.quick-icons li:hover{
+  font-size:18px;
+  transition: 0.5s;
+}
+
+
+.footer-form:hover{
+border: solid #3CB815;
+
+
+}
+.footer-input{
+  border: 0;
+  padding: 15px;
+}
+
+.footer-btn{
+  padding: 15px;
+  background-color: #3CB815;
+  color: white;
+}
+
+
+
+/* END FOOTER SECTION */

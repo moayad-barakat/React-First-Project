@@ -102,9 +102,128 @@ function Container() {
 
             {/* END FIRM SECTTION  */}
 
+
+
+
+              {/* START FEATURES SECTION */}
+
+              <div className="features-section">
+                <div className="empty-divs">
+                    <div className="empty-div1"></div>
+                    <div className="empty-div2"></div>
+                </div>
+
+
+                <div className="features-content">
+                    <h1 className="features-title">Our Features</h1>
+                    <p>Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum</p>
+                    <p>diam justo sed rebum vero dolor duo.</p>
+                </div>
+
+
+                <div className="features-cards">
+                    <div className="feature-card">
+                        <img src={icon1} alt="" />
+
+                        <h3 className="features-title1">Natural Process</h3>
+                        <p className="features-text2">
+                            Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.
+                        </p>
+
+                        <button className="features-buttons">Read More</button>
+
+
+                    </div>
+
+                    <div className="feature-card">
+                        <img src={icon2} alt="" />
+
+                        <h3 className="features-title1">Organic Products</h3>
+                        <p className="features-text2">
+                            Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.
+                        </p>
+
+                        <button className="features-buttons">Read More</button>
+
+
+                    </div>
+
+
+                    <div className="feature-card">
+                        <img src={icon3} alt="" />
+
+                        <h3 className="features-title1">Biologically Safe</h3>
+                        <p className="features-text2">
+                            Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed vero dolor duo.
+                        </p>
+
+                        <button className="features-buttons">Read More</button>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            {/*  END FEATURES SECTION */}
+
            
 
 
+
+
+            {/* START FOOTER */}
+
+            <footer>
+
+                <div className="footer-1">
+                    <h1 className="footer-title1">Foody</h1>
+                    <p className="footer-text1">Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita</p>
+
+                    <div className="footer-icons">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                </div>
+
+                <div className="footer-2">
+                    <h2 className="address-title">Address</h2>
+                    <ul className="address-icons">
+                        <li><i class="fa-solid fa-location-dot"></i> <span>123 Street, New York, USA</span></li>
+                        <li><i class="fa-solid fa-phone"></i> <span>+012 345 67890</span></li>
+                        <li><i class="fa-regular fa-envelope"></i> <span>info@example.com</span></li>
+                    </ul>
+                </div>
+
+
+                <div className="footer-3">
+                    <h1>Quick Links</h1>
+                    <ul className="quick-icons">
+                        <li><a href="#">&gt; About Us</a></li>
+                        <li><a href="#">&gt; Contact Us</a></li>
+                        <li><a href="#">&gt; Our Sevices</a></li>
+                        <li><a href="#">&gt; Team & Condation</a></li>
+                        <li><a href="#">&gt;  Support</a></li>
+                    </ul>
+                </div>
+
+                <div className="footer-4">
+                    <h1>Newsletter</h1>
+                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                    <div className="footer-input">
+                        <input className="footer-input" type="email" />
+                        <button className="footer-btn">Sign In</button>
+                    </div>
+                </div>
+            </footer>
+
+
+
+            {/* END FOOTER */}
 
         </div>
     )
