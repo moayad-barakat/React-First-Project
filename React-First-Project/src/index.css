@@ -1,0 +1,59 @@
+
+
+/* Start Header */
+.header-background {
+  background-image: url("./assets/carousel1.jpg");
+  height: 900px;
+  background-size: cover;
+
+
+}
+
+/* Start Navbar */
+.food-class{
+  color: #3CB815;
+}
+
+.lists {
+  list-style: none;
+  display: flex;
+  margin-right: 80px;
+}
+
+.lists li {
+  margin: 7px;
+  
+}
+
+.lists li a {
+  text-decoration: none;
+  color: black;
+}
+
+.Navbars{
+  display: flex;
+  justify-content: space-between;
+}
+
+.xx{
+  display: flex;
+}
+
+.icons{
+  font-size: x-large;
+  margin-top: 13px;
+}
+
+.icons i {
+  margin: 5px;
+  background-color: white;
+  padding: 4px;
+  border-radius: 50%;
+  color: gray;
+}
+
+/* End Navbar */
+
+/* End Header */
+
+
